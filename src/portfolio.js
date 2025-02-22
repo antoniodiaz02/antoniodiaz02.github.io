@@ -32,8 +32,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "", // Add your GitHub URL
-  linkedin: "https://www.linkedin.com/in/antonio-diazbarbancho-a64832259",
+  github: "https://github.com/antoniodiaz02",
+  linkedin: "https://www.linkedin.com/in/antonio-diaz-barbancho-a64832259/",
   gmail: "mesidiez@gmail.com",
   // Remove or comment out unused social media links
   display: true
@@ -57,7 +57,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "kubernetes",
-      fontAwesomeClassname: "fab fa-kubernetes"
+      fontAwesomeClassname: "fas fa-dharmachakra"
     },
     {
       skillName: "azure",
@@ -100,19 +100,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Cloud Architecture",
+      progressPercentage: "95"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Infrastructure as Code",
+      progressPercentage: "75"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "CI/CD",
+      progressPercentage: "60"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -156,8 +156,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true,
 };
 
 // Some big projects you have worked on
@@ -190,7 +190,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -209,7 +209,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "" // Add your certification URL if available
+          url: "https://learn.microsoft.com/es-es/users/antoniodiazbarbancho-7682/credentials/2a01ddb765f22a69?ref=https%3A%2F%2Fwww.linkedin.com%2F" // Add your certification URL if available
         }
       ]
     },
@@ -221,7 +221,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "" // Add your certification URL if available
+          url: "https://www.credly.com/badges/0b886dcc-afb8-4d1b-8dd1-438f12c7c1a8/public_url" // Add your certification URL if available
         }
       ]
     }
@@ -241,20 +241,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Desactiva la sección de talks
 };
 
 // Podcast Section
@@ -267,7 +254,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -281,20 +268,20 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Feel free to reach out for collaborations or just a friendly hello!",
+  number: "+34 674418899",
+  email_address: "mesidiez@gmail.com",
+  github_username: "antoniodiaz02"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
