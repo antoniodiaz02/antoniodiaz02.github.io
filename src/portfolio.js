@@ -214,16 +214,43 @@ const achievementSection = {
       ]
     },
     {
-      title: "CCNA Cisco",
-      subtitle: "Cisco Certified Network Associate certification demonstrates networking fundamentals knowledge.",
-      image: require("./assets/images/ccnaLogo.png"),
-      imageAlt: "CCNA Logo",
+      title: "CCNA: Enterprise Networking, Security, and Automation",
+      subtitle: "Cisco Networking Academy",
+      image: require("./assets/images/ccnaLogo.png"), // Asegúrate de tener esta imagen
       footerLink: [
         {
-          name: "Certification",
-          url: "https://www.credly.com/badges/0b886dcc-afb8-4d1b-8dd1-438f12c7c1a8/public_url" // Add your certification URL if available
+          name: "View Credential",
+          url: "https://www.credly.com/badges/0b886dcc-afb8-4d1b-8dd1-438f12c7c1a8/public_url"
         }
-      ]
+      ],
+      skills: ["Access Lists", "Routing", "Network Security"],
+      date: "Issued May 2023 · Expires Jun 2023"
+    },
+    {
+      title: "CCNA: Switching, Routing, and Wireless Essentials",
+      subtitle: "Cisco Networking Academy",
+      image: require("./assets/images/ccnaLogo.png"), // Mismo logo
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.credly.com/badges/c513c51b-b178-4c47-8b60-367aea096e3b/public_url"
+        }
+      ],
+      skills: ["EIGRP", "Routing", "WLAN", "OSPF", "VLAN"],
+      date: "Issued Mar 2023 · Expires May 2023"
+    },
+    {
+      title: "CCNA: Introduction to Networks",
+      subtitle: "Cisco Networking Academy",
+      image: require("./assets/images/ccnaLogo.png"), // Mismo logo
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.credly.com/badges/ae705d1e-29a8-4504-8738-eebe50708e58/public_url"
+        }
+      ],
+      skills: ["Cisco Routers"],
+      date: "Issued Jan 2023 · Expires Mar 2023"
     }
   ],
   display: true
